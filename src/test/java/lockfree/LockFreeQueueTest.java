@@ -34,12 +34,12 @@ class LockFreeQueueTest {
         t1.start();
 
         Thread t2 = new Thread(() -> {
-            for (int i = 50 ; i < 70 ; i++)  queue.enqueue(i);;
+            for (int i = 20 ; i < 40 ; i++)  queue.enqueue(i);;
         });
         t2.start();
 
         Thread t3 = new Thread(() -> {
-            for (int i = 70 ; i < 90 ; i++)  queue.enqueue(i);;
+            for (int i = 40 ; i < 60 ; i++)  queue.enqueue(i);;
         });
         t3.start();
         try {
