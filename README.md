@@ -10,6 +10,8 @@ progress even in the presence of contention.
 Data Structures:
 - Stack
 - Queue
+- Binary Search Tree (construction only)
+
 
 ## Characteristics
 Here are some key characteristics and principles of lock-free programming:
@@ -33,6 +35,8 @@ or additional metadata are employed to mitigate this problem.
 5. **Memory Reordering**: Lock-free programming requires careful consideration of memory ordering issues, 
 as modern processors may perform optimizations such as memory reordering that can affect the visibility 
 of changes between threads.
+
+**Notes**: I did not try to solve the ABA problem.
 
 ## References
 - https://www.baeldung.com/lock-free-programming
