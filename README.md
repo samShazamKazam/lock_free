@@ -7,7 +7,7 @@ on shared data structures without needing to acquire locks. Instead of using tra
 like mutexes or semaphores, lock-free programming relies on atomic operations and algorithms designed to ensure 
 progress even in the presence of contention.
 
-Data Structures:
+Data structures covered here:
 - Stack
 - Queue
 - Binary Search Tree (construction only)
